@@ -7,12 +7,12 @@
 > [zf3-web](https://github.com/zendframework/zf3-web/) repository, which is an
 > Expressive-based application.
 
-Zend Framework Website, v2.0
+Zend Framework Website, v2.0:
 ============================
 
 This is the next incarnation of the Zend Framework website, written using ZF2.
 
-Installation
+Installation:
 ------------
 
 First step is grabbing dependencies. Run the following:
@@ -30,7 +30,7 @@ php -S localhost:8080
 
 Alternately, configure a virtual host in the webserver of your choice.
 
-Adding a Release
+Adding a Release:
 ----------------
 
 To update the site to include a new release, do the following:
@@ -45,7 +45,7 @@ the manual and apidoc version mappings are correct.
 If the release date is other than the current date, you can also add a
 `RELEASE_DATE` variable on the commandline, in the format "YYYY-MM-DD".
 
-Updating the Home Page
+Updating the Home Page:
 ----------------------
 
 The template for the homepage is kept in `data/homepage.phtml`; if you need to
@@ -60,7 +60,7 @@ make homepage
 
 Don't forget to commit the modified homepage view script when done!
 
-Reference Guide
+Reference Guide:
 ---------------
 
 To configure the Reference Guide of ZF1 and ZF2, edit the file
@@ -97,7 +97,7 @@ the version of Zend Framework, and ``$LANG`` is the language. As with the ZF2
 configuration, the path must end with the ``/`` (slash) character.
 
 
-Blog posts
+Blog posts:
 ----------
 
 Want to post something on the blog?
@@ -114,7 +114,7 @@ To compile the blog, do the following from the root of the application:
 
 Then add and commit the new and updated files.
 
-Generating Changelogs
+Generating Changelogs:
 ---------------------
 
 To add a new version to the changelog, execute the following:
@@ -128,7 +128,7 @@ This will, by default, write to either `data/zf1-changelog.php` or
 1.12.4, you will need to ensure your local configuration includes appropriate
 JIRA credentials.
 
-CSS
+CSS:
 ---
 
 We use [Sass](http://sass-lang.com/) as stylesheet language and the Sass 
